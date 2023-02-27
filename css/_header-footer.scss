@@ -1,0 +1,39 @@
+header{
+    background-color: #10223A;
+    width: 34vh;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 100px 0;
+    img{
+        width: 60%;
+    }
+    .link-bar{padding: 20px 0;
+        li{
+            padding: 9px 0;
+            margin: 5px 0;
+            font-weight: 700;    
+            
+            a{
+                color: #fff;
+                transition: 1s;
+                background-color: #10223A;
+                border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+                
+                padding: 10px 15px;
+                 margin: 9px 0;
+
+                &:hover{
+                background-color: #FAB005;
+                border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
+                padding: 10px 15px;
+                 margin: 9px 0;
+                color: #000;
+                }
+                
+            }
+        }
+    }
+}

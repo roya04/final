@@ -1,0 +1,60 @@
+header {
+  background-color: #10223A;
+  width: 34vh;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 100px 0;
+}
+header img {
+  width: 60%;
+}
+header .link-bar {
+  padding: 20px 0;
+}
+header .link-bar li {
+  padding: 9px 0;
+  margin: 5px 0;
+  font-weight: 700;
+}
+header .link-bar li a {
+  color: #fff;
+  transition: 1s;
+  background-color: #10223A;
+  border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+  padding: 10px 15px;
+  margin: 9px 0;
+}
+header .link-bar li a:hover {
+  background-color: #FAB005;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  padding: 10px 15px;
+  margin: 9px 0;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button1 {
+  background-color: #FAB005 !important;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  padding: 10px 15px;
+  margin: 9px 0;
+  color: #000 !important;
+}/*# sourceMappingURL=style.css.map */
