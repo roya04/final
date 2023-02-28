@@ -1,40 +1,198 @@
-header {
-  background-color: #10223A;
-  width: 34vh;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  padding: 100px 0;
+@media (min-width: 1200px) {
+  #header1 {
+    display: block;
+    font-family: "Rubik", sans-serif;
+    background-color: #10223A;
+    width: 34vh;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 100px 0;
+  }
+  #header1 img {
+    width: 60%;
+  }
+  #header1 .link-bar {
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+  #header1 .link-bar li {
+    padding: 9px 0;
+    margin: 5px 0;
+    font-weight: 700;
+  }
+  #header1 .link-bar li a {
+    color: #fff;
+    transition: 1s;
+    background-color: #10223A;
+    border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+    padding: 10px 15px;
+    margin: 9px 0;
+  }
+  #header1 .link-bar li a:hover {
+    background-color: #FAB005;
+    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+    padding: 10px 15px;
+    margin: 9px 0;
+    color: #10223A;
+  }
+  #header1 .link-bar .pages {
+    position: relative;
+  }
+  #header1 .link-bar .pages:hover .dropdown {
+    display: block;
+  }
+  #header1 .link-bar .pages .dropdown {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 91%;
+    width: 190px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
+  #header1 .link-bar .pages .dropdown ul li {
+    margin: 0;
+    padding: 4px 0;
+  }
+  #header1 .link-bar .pages .dropdown ul li a {
+    color: #000;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 5px 0 !important;
+    display: inline-block;
+  }
+  #header1 .link-bar .pages .dropdown ul li a:hover {
+    background-color: #FAB005;
+    color: #fff;
+  }
+  #header1 .link-bar2 {
+    font-size: 14px;
+  }
+  #header1 .link-bar2 li {
+    color: #fff;
+    padding: 5px 0;
+  }
+  #header1 .link-bar2 li .icons i {
+    color: #FAB005;
+    transition: 0.3s;
+  }
+  #header1 .link-bar2 li .icons i:hover {
+    color: #fff;
+  }
+  #header1 .link-bar2 li i {
+    font-size: 13px;
+  }
+  #header2 {
+    display: none;
+  }
 }
-header img {
-  width: 60%;
+@media (max-width: 1200px) {
+  #header1 {
+    display: none;
+  }
+  #header2 {
+    z-index: 999;
+    display: block;
+    background-color: #10223A;
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+  }
+  #header2 .header-kapsam .box img {
+    width: 60px;
+  }
+  #header2 .header-kapsam .box i {
+    font-size: 30px;
+    color: #fff;
+  }
+  #header2 .scroll {
+    overflow: scroll;
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+  }
+  #header2 .scroll::-webkit-scrollbar {
+    background: #777;
+    width: 10px;
+    height: 8px;
+  }
+  #header2 .scroll::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
+  #header2 .link-bar3 {
+    width: 100%;
+    text-transform: uppercase;
+  }
+  #header2 .link-bar3 li {
+    padding: 9px 0;
+    margin: 5px 0;
+    font-weight: 700;
+  }
+  #header2 .link-bar3 li a {
+    color: #fff;
+    transition: 0.5s;
+    background-color: #10223A;
+    border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+    display: block;
+    padding: 9px 0;
+    margin: 5px 0;
+  }
+  #header2 .link-bar3 li a:hover {
+    background-color: #FAB005;
+    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+    color: #10223A;
+  }
+  #header2 .link-bar3 .pages {
+    position: relative;
+  }
+  #header2 .link-bar3 .pages:hover .dropdown {
+    display: block;
+  }
+  #header2 .link-bar3 .pages .dropdown {
+    background-color: #fff;
+    width: 190px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
+  #header2 .link-bar3 .pages .dropdown ul li {
+    margin: 0;
+    padding: 4px 0;
+  }
+  #header2 .link-bar3 .pages .dropdown ul li a {
+    color: #10223A;
+    font-weight: 500;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 5px 0 !important;
+    display: inline-block;
+  }
+  #header2 .link-bar3 .pages .dropdown ul li a:hover {
+    background-color: #FAB005;
+    color: #fff;
+  }
+  #header2 .link-bar2 {
+    font-size: 14px;
+  }
+  #header2 .link-bar2 li {
+    color: #fff;
+    padding: 5px 0;
+  }
+  #header2 .link-bar2 li .icons i {
+    color: #FAB005;
+    transition: 0.3s;
+  }
+  #header2 .link-bar2 li .icons i:hover {
+    color: #fff;
+  }
+  #header2 .link-bar2 li i {
+    font-size: 13px;
+  }
 }
-header .link-bar {
-  padding: 20px 0;
-}
-header .link-bar li {
-  padding: 9px 0;
-  margin: 5px 0;
-  font-weight: 700;
-}
-header .link-bar li a {
-  color: #fff;
-  transition: 1s;
-  background-color: #10223A;
-  border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
-  padding: 10px 15px;
-  margin: 9px 0;
-}
-header .link-bar li a:hover {
-  background-color: #FAB005;
-  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
-  padding: 10px 15px;
-  margin: 9px 0;
-  color: #000;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -53,8 +211,8 @@ ul {
 
 .button1 {
   background-color: #FAB005 !important;
-  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46% !important;
   padding: 10px 15px;
   margin: 9px 0;
-  color: #000 !important;
+  color: #10223a !important;
 }/*# sourceMappingURL=style.css.map */

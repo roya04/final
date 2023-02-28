@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <header id="header">
+ <header id="header1">
     <div class="container">
         <img src="img/header-logo.png" alt="">
         
@@ -29,14 +34,106 @@
     <li>
         <a href="#" class="">CONTACT</a>
     </li>
-    <li>
-        <a href="#" class="">PAGES </a>
+    <li class="pages">
+        <a href="#">PAGES <i class="fa-solid fa-caret-right"></i></a>
+        <div class="dropdown">
+            
+            <ul class="">
+              <li><a class="dropdown-item p-0 m-0" href="#">
+                Services Single</a></li>
+              <li><a class="dropdown-item p-0 m-0" href="#">Blog</a></li>
+              <li><a class="dropdown-item p-0 m-0" href="#">Blog post</a></li>
+              <li><a class="dropdown-item p-0 m-0" href="#">Elements</a></li>
+            </ul>
+          </div>
     </li>
 </ul>
 
+<ul class="link-bar2">
+    <li>
+        <i class="fa-solid fa-phone text-warning me-2"></i>13 456 890
+    </li>
+   <li>
+    <i class="fa-solid fa-location-dot text-warning me-2"></i>
+    Street name 123 <br>
+      New York
+   </li>
+   <li class=" p-3">
+    <div class="icons d-flex justify-content-evenly">
+    <a href="#">
+    <i class="fa-brands fa-facebook  fs-5"></i>
+    </a>
+    <a href="#">
+    <i class="fa-brands fa-instagram  fs-5"></i>
+    </a>
+    <a href="#">
+    <i class="fa-solid fa-envelope  fs-5"></i>
+    </a>
+</div>
+
+   </li>
+</ul>
     </div>
  </header>
 
+ <header id="header2">
+    <div class="container">
+        <div class="header-kapsam">
+        <div class="row align-items-center">
+            <div class="box col-10">
+                <img src="img/header-logo.png" alt="">
+            </div>
+            <div class="box col-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <i class="fa-solid fa-bars"></i>
+                  </button>
+            </div>
+        </div>
+        </div>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="link-bar3 text-center scroll">
+        <li>
+            <a href="#" class="button1">Home</a>
+        </li>
+        <li>
+            <a href="#" class="">Services</a>
+        </li>
+        <li>
+            <a href="#" class="">ABOUT US</a>
+        </li>
+        <li>
+            <a href="#" class="">OUR RATES</a>
+        </li>
+        <li>
+            <a href="#" class="">CONTACT</a>
+        </li>
+        <button class="navbar-toggler d-block w-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <li class="pages">
+            <a href="#">PAGES <i class="fa-solid fa-caret-right"></i></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <div class="dropdown w-100 fs-5">
+                
+                <ul class="">
+                  <li><a class="dropdown-item p-0 m-0" href="#">
+                    Services Single</a></li>
+                  <li><a class="dropdown-item p-0 m-0" href="#">Blog</a></li>
+                  <li><a class="dropdown-item p-0 m-0" href="#">Blog post</a></li>
+                  <li><a class="dropdown-item p-0 m-0" href="#">Elements</a></li>
+                </ul>
+              </div></div>
+
+
+        </li>
+           </button>
+        
+
+        
+    </ul></div>
+
+    </div>
+ </header>
 
 
 
