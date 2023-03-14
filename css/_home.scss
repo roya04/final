@@ -1,3 +1,5 @@
+
+
 #home1 {
     width: 100%;
     height: auto;
@@ -43,7 +45,7 @@
             }
 
             a {
-               
+
                 padding: 10px 15px;
                 background-color: #FAB005;
                 border-radius: 20px;
@@ -185,6 +187,8 @@
 
     .boxes {
         .box {
+            border: 3px solid transparent;
+            transition: 0.3s ease-in-out;
             img {
                 border-radius: 5px;
 
@@ -192,6 +196,11 @@
 
             .img-none {
                 display: none;
+            }
+            &:hover{
+                border: 3px solid #FAB005 ;
+                border-radius: 7px;
+
             }
         }
     }
@@ -479,7 +488,7 @@
                 img {
                     height: 190px;
                     width: 85%;
-                   margin-left: 9%;
+                    margin-left: 9%;
                     border-radius: 10px;
                     position: relative;
 
@@ -704,7 +713,7 @@
 
 
     .box {
-padding-block: 3rem;
+        padding-block: 3rem;
         position: absolute;
         width: 90%;
         height: auto;
@@ -713,8 +722,8 @@ padding-block: 3rem;
         transform: translate(-50%, -50%);
         border-radius: 1.25rem;
         text-align: center;
-      
-    
+
+
 
         a {
             color: #10223a;
@@ -904,8 +913,15 @@ padding-block: 3rem;
 
                 .video {
                     width: 90%;
-                    
+
                 }
+            }
+        }
+    }
+    #home7{
+        .box{
+            a{
+                padding: 10px 40px;
             }
         }
     }
@@ -950,18 +966,23 @@ padding-block: 3rem;
             }
         }
     }
+
     #home5 {
         .boxes {
             .box {
                 height: 60vh;
-                 
+
                 .video {
                     width: 90%;
-                    img{height: 230px;}
+
+                    img {
+                        height: 230px;
+                    }
                 }
             }
         }
     }
+
     #home6 {
 
 
@@ -979,6 +1000,9 @@ padding-block: 3rem;
 
         }
     }
+    #home7{
+        height: 70vh;
+            }
 
 }
 
@@ -1099,6 +1123,7 @@ padding-block: 3rem;
             width: 91%;
             margin-left: auto;
             height: 300px;
+
             .choose {
                 width: 84%;
             }
@@ -1111,7 +1136,7 @@ padding-block: 3rem;
                 height: 206px;
                 width: 200px !important;
 
-                
+
             }
 
         }
@@ -1125,7 +1150,7 @@ padding-block: 3rem;
             margin-left: 25%;
         }
 
-        .modal-body2{
+        .modal-body2 {
             width: 150%;
             height: 400px;
         }
@@ -1157,8 +1182,9 @@ padding-block: 3rem;
         width: 84%;
 
         .box {
-            left: 10%;
-            width: 40%;
+            left: 30%;
+            width: 30%;
+            padding-inline: 10px;
         }
     }
 

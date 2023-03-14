@@ -715,11 +715,19 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   margin: auto;
 }
+#home3 .boxes .box {
+  border: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+}
 #home3 .boxes .box img {
   border-radius: 5px;
 }
 #home3 .boxes .box .img-none {
   display: none;
+}
+#home3 .boxes .box:hover {
+  border: 3px solid #FAB005;
+  border-radius: 7px;
 }
 #home3 .dots {
   display: flex;
@@ -1246,6 +1254,9 @@ h1, h2, h3, h4, h5, h6 {
   #home5 .boxes .box .video {
     width: 90%;
   }
+  #home7 .box a {
+    padding: 10px 40px;
+  }
 }
 @media (min-width: 768px) {
   #home1 {
@@ -1293,6 +1304,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     bottom: -10%;
     left: 50%;
+  }
+  #home7 {
+    height: 70vh;
   }
 }
 @media (min-width: 992px) {
@@ -1425,8 +1439,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 84%;
   }
   #home7 .box {
-    left: 10%;
-    width: 40%;
+    left: 30%;
+    width: 30%;
+    padding-inline: 10px;
   }
   #home8 {
     width: 70%;
@@ -1624,8 +1639,18 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-#contact4 {
+#contact4 .map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+#contact4 .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
+  position: absolute;
 }
 
 @media (min-width: 576px) {
@@ -1742,7 +1767,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 40%;
   }
   #contact4 {
-    width: 50%;
+    margin-left: 16%;
   }
 }
 * {
