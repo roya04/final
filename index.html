@@ -1,144 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="vendor/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Damion&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header id="header1">
-    <div class="container">
-        <img src="img/header-logo.png" alt="">
-        
-<ul class="link-bar">
-    <li>
-        <a href="#" class="button1">Home</a>
-    </li>
-    <li>
-        <a href="#" class="">Services</a>
-    </li>
-    <li>
-        <a href="#" class="">ABOUT US</a>
-    </li>
-    <li>
-        <a href="#" class="">OUR RATES</a>
-    </li>
-    <li>
-        <a href="#" class="">CONTACT</a>
-    </li>
-    <li class="pages">
-        <a href="#">PAGES <i class="fa-solid fa-caret-right"></i></a>
-        <div class="dropdown">
-            
-            <ul class="">
-              <li><a class="dropdown-item p-0 m-0" href="#">
-                Services Single</a></li>
-              <li><a class="dropdown-item p-0 m-0" href="#">Blog</a></li>
-              <li><a class="dropdown-item p-0 m-0" href="#">Blog post</a></li>
-              <li><a class="dropdown-item p-0 m-0" href="#">Elements</a></li>
-            </ul>
-          </div>
-    </li>
-</ul>
-
-<ul class="link-bar2">
-    <li>
-        <i class="fa-solid fa-phone text-warning me-2"></i>13 456 890
-    </li>
-   <li>
-    <i class="fa-solid fa-location-dot text-warning me-2"></i>
-    Street name 123 <br>
-      New York
-   </li>
-   <li class=" p-3">
-    <div class="icons d-flex justify-content-evenly">
-    <a href="#">
-    <i class="fa-brands fa-facebook  fs-5"></i>
-    </a>
-    <a href="#">
-    <i class="fa-brands fa-instagram  fs-5"></i>
-    </a>
-    <a href="#">
-    <i class="fa-solid fa-envelope  fs-5"></i>
-    </a>
-</div>
-
-   </li>
-</ul>
-    </div>
- </header>
-
- <header id="header2">
-    <div class="container">
-        <div class="header-kapsam">
-        <div class="row align-items-center">
-            <div class="col-10">
-                <div class="box">
+    <header id="header1">
+        <div class="container">
+            <div class="boxes">
+                <div class="box ">
                     <img src="img/header-logo.png" alt="">
-                    
+                </div>
+                <div class="box box1">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars text-light"></i>
+                    </button>
                 </div>
             </div>
-            <div class="box col-2">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                   <i class="fa-solid fa-bars"></i>
-                  </button>
+            <div class="collapse navbar--collapse pb-5" id="navbarSupportedContent">
+
+                <div class="scroll">
+                    <ul class="link-bar">
+                        <li>
+                            <a href="#" class="button1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">OUR RATES</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">CONTACT</a>
+                        </li>
+                        <li class="pages">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <a href="#">PAGES <i class="fa-solid fa-caret-right"></i></a>
+                            </button>
+
+
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                                <div class="dropdown">
+
+                                    <ul class="">
+                                        <li><a class="dropdown-item p-0 m-0" href="#">
+                                                Services Single</a></li>
+                                        <li><a class="dropdown-item p-0 m-0" href="#">Blog</a></li>
+                                        <li><a class="dropdown-item p-0 m-0" href="#">Blog post</a></li>
+                                        <li><a class="dropdown-item p-0 m-0" href="#">Elements</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="link-bar1">
+                <li>
+                    <a href="#" class="button1">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="">Services</a>
+                </li>
+                <li>
+                    <a href="#" class="">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#" class="">OUR RATES</a>
+                </li>
+                <li>
+                    <a href="#" class="">CONTACT</a>
+                </li>
+                <li class="pages">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <a href="#">PAGES <i class="fa-solid fa-caret-right"></i></a>
+                    </button>
+
+
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <div class="dropdown">
+
+                            <ul class="">
+                                <li><a class="dropdown-item p-0 m-0" href="#">
+                                        Services Single</a></li>
+                                <li><a class="dropdown-item p-0 m-0" href="#">Blog</a></li>
+                                <li><a class="dropdown-item p-0 m-0" href="#">Blog post</a></li>
+                                <li><a class="dropdown-item p-0 m-0" href="#">Elements</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="link-bar2">
+                <li>
+                    <i class="fa-solid fa-phone text-warning me-2"></i>13 456 890
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot text-warning me-2"></i>
+                    Street name 123 <br>
+                    New York
+                </li>
+                <li class=" p-3">
+                    <div class="icons d-flex justify-content-evenly">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook  fs-5"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram  fs-5"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope  fs-5"></i>
+                        </a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home1">
+        <div class="slide">
+            <img src="img/slide1.jpg" alt="" class="img-fluid " />
+
+
+        </div>
+        <div class="overlay">
+            <div class="txtbox">
+                <p>Welcome to</p>
+                <h1>Waggy Tails</h1>
+                <span>We Offer Premium Boarding and Daycare Services for Dogs of all sizes!</span>
+                <a class="box-shadow-bt" href="#">ABOUT US</a>
             </div>
         </div>
+        <svg class="svg-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path fill="#fff" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+           c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+           c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+        </svg>
+    </section>
+    <section id="home2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-12 ">
+                    <div class="imgbox">
+                        <img class="img-fluid" src="img/home1.jpg" alt="">
+                        <span>So Fun!</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 offset-lg-1">
+                    <div class="txtbox">
+                        <h6><i class="fa-solid fa-paw"></i>WHAT WE OFFER</h6>
+                        <h2>Quality Care for Your Dog</h2>
+                        <p>Fusce efficitur nulla vitae metus vehicula semper Proin a mattis ligula quisque sed dapibus
+                            eros. Etiam ac neque sed risus sodales hendrerit vel ac diam.</p>
+                        <a href="#">ABOUT US</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="link-bar3 text-center scroll">
-        <li>
-            <a href="#" class="button1">Home</a>
-        </li>
-        <li>
-            <a href="#" class="">Services</a>
-        </li>
-        <li>
-            <a href="#" class="">ABOUT US</a>
-        </li>
-        <li>
-            <a href="#" class="">OUR RATES</a>
-        </li>
-        <li>
-            <a href="#" class="">CONTACT</a>
-        </li>
-        <button class="navbar-toggler d-block w-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <li class="pages">
-            <a href="#">PAGES <i class="fa-solid fa-caret-right"></i></a>
+    </section>
+    <section id="home3">
+        <div class="boxes">
+            <div class="row row-cols-md-3 row-cols-2  justify-content-around">
+                <div class="">
+                    <div class="box"><img class="img-fluid" src="img/gallery3.jpg" alt=""></div>
+                </div>
+                <div class="">
+                    <div class="box"><img class="img-fluid" src="img/gallery4.jpg" alt=""></div>
+                </div>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <div class="dropdown w-100 fs-5">
+                <div class="">
+                    <div class="box "><img class="img-fluid img-none" src="img/gallery6.jpg" alt=""></div>
+                </div>
                 
-                <ul class="">
-                  <li><a class="dropdown-item p-0 m-0" href="#">
-                    Services Single</a></li>
-                  <li><a class="dropdown-item p-0 m-0" href="#">Blog</a></li>
-                  <li><a class="dropdown-item p-0 m-0" href="#">Blog post</a></li>
-                  <li><a class="dropdown-item p-0 m-0" href="#">Elements</a></li>
-                </ul>
-              </div></div>
+            </div>
+            <div class="dots">
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+
+            </div>
+        </div>
+    </section>
+    <section id="home4">
+        <div class="container mt-5">
+            <div class="row  ">
+                <div class="col-lg-7">
+                    <div class="txtbox">
+                        <h6> <i class="fa-solid fa-paw"></i>WHAT WE DO</h6>
+                        <h2>We Love and Protect your Dog</h2>
+                        <p class="p1">Bite roll over greyhound great dance kibbles st bernard speak greyhound, dog bowl
+                            take it catch.</p>
+                        <p>Vestibulum ut placerat nibh, in efficitur lacus. Morbi risus sapien, imperdiet at nibh
+                            ullamcorper, ornare sodales risus.</p>
+                        <p>Morbi malesuada euismod ullamcorper. Curabitur varius metus urna, nec bibendum nisl vehicula
+                            vel.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="read">
+                        <img src="img/ornament3.png" alt="" class="w-100 ">
+                        <div class="choose shadow">
+                            <h4>Why Choose us?</h4>
+                            <p><i class="fa-solid fa-paw"></i>Ibu lum orci eget, viverra elit aliquam erat volut pat.
+                            </p>
+                            <p><i class="fa-solid fa-paw"></i>Aliquam erat volut pat phas ellus ac sodales felis tiam
+                                non
+                            </p>
+                            <p><i class="fa-solid fa-paw"></i>Ibu lum orci eget, viverra elit aliquam erat volut pat.
+                            </p>
+                            <p class="p1"><i class="fa-solid fa-paw"></i>Erat volut pat phas ellu</p>
+                            <a href="">READ MORE </a>
+
+                        </div>
 
 
-        </li>
-           </button>
-        
-
-        
-    </ul></div>
-
-    </div>
- </header> 
+                    </div>
+                </div>
 
 
+            </div>
+            <div class="boxes">
+                <div class="row  ">
+                    <div class="col-lg-4 ">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="img/dog1.svg" alt="">
+                            </div>
+                            <h5>Social and Fun</h5>
+                            <p>Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate lorem.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="img/dog2.svg" alt="">
+                            </div>
+                            <h5>Safety First</h5>
+                            <p>Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate lorem.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="box">
+
+                            <div class="icon">
+                                <img src="img/dog3.svg" alt="">
+
+                            </div>
+                            <h5>Qualified Staff</h5>
+                            <p>Facilis veniam reprehenderit quaerat aspernatur, quis voluptas voluptate lorem.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section id="home5">
+        <div class="container">
+            <div class="container2">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="txtbox">
+                            <h6><i class="fa-solid fa-paw"></i>CAMERAS</h6>
+                            <h1>Our Doggy Cams</h1>
+                            <p>Turpis sit amet turpis mattis vestibulum et vel enim. Suspendisse magna magna,
+                                consectetur at
+                                erat non, mattis aliquet elit.</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="boxes">
+                            <div class="row">
+                                <div class=" col-lg-6">
+                                    <div class="box box1">
+                                        <h6>Cam 1</h6>
+                                        <h4 class="mb-3">Puppy Room</h4>
+                                        <div class="video">
+                                            <img class="img-fluid" src="img/cam1.jpg" alt="">
+                                            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <span><i class="fa-regular fa-circle-play"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-body modal-body2">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/lWQaaZkqND4"
+                                                        title="YouTube video player" frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen></iframe>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-6">
+                                    <div class="box box2">
+                                        <h6>Cam 1</h6>
+                                        <h4 class="mb-3">Puppy Room</h4>
+                                        <div class="video">
+                                            <img class="img-fluid" src="img/cam2.jpg" alt="">
+                                            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <span><i class="fa-regular fa-circle-play"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/lWQaaZkqND4"
+                                                        title="YouTube video player" frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen></iframe>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-6 m-auto">
+                                    <div class="box box2">
+                                        <h6>Cam 1</h6>
+                                        <h4 class="mb-3">Puppy Room</h4>
+                                        <div class="video">
+                                            <img class="img-fluid" src="img/cam3.jpg" alt="">
+                                            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <span><i class="fa-regular fa-circle-play"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/lWQaaZkqND4"
+                                                        title="YouTube video player" frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen></iframe>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ornaments">
+            <img class="left" src="img/bg2.png" alt="">
+            <img src="img/bg1.png" alt="">
+        </div>
+
+
+    </section>
+    <section id="home6">
+        <div class="container">
+            <div class="row  justify-content-between align-items-center">
+                <div class="col-xl-5 col-lg-5 ">
+                    <div class="txtbox">
+                        <h6><i class="fa-solid fa-paw"></i>JOIN THE PACK</h6>
+                        <h2>How to Join our Daycare:</h2>
+                        <div class="steps">
+                            <div class="step">
+                                <div class="number">1</div>
+                                <div class="info">
+                                    <p class="title">Send Documents</p>
+                                    <p class="text">Facilis veniam reprehenderit quaerat aspernatur, quis voluptas
+                                        voluptate.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="number">2</div>
+                                <div class="info">
+                                    <p class="title">Fill Forms</p>
+                                    <p class="text">Fugiat pariatur minima nemo? Facilis veniam reprehenderit quaerat
+                                        aspernatur, quis voluptas voluptate.</p>
+                                </div>
+                            </div>
+                            <div class="step2">
+                                <div class="number">3</div>
+                                <div class="info">
+                                    <p class="title">Ready!</p>
+                                    <p class="text">Veniam reprehenderit quaerat aspernatur, quis voluptas voluptate.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="imgbox">
+                        <img class="dog img-fluid" src="img/home.jpg" alt="">
+                        <img class="ornament" src="img/ornament1.png" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="home7"  class="position-relative ">
+      
+        <div class="box bg-white border-radius"> 
+          <h3 class="px-5">We are Tour Friendly</h3>
+          <p class="px-5 my-lg-4">Fusce at nibh lacinia orci dictum euismod. Praesent vel nisl in quam commodo tristique.</p>
+          <a href="#" class="">MORE INFO </a>
+        </div>
+  </section>
+    <section id="home8">
+        <div class="container">
+            <div class="txtbox">
+                <h6><i class="fa-solid fa-paw"></i>CONTACT</h6>
+                <h2>Get in Touch</h2>
+            </div>
+            <div class="boxes">
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h6>Email</h6>
+                            <p>Email address:</p><br>
+                            <a href="">email@yoursite.com</a>
+                        </div></div>
+                    <div class="col-md-5">
+                        <div class="box"> <i class="fa-solid fa-location-pin"></i>
+                        <h6>our Location</h6>
+                        <p>St Anderson Street 123 <br> New York</p></div>
+                        </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="box">
+                            <i class="fa-solid fa-phone"></i>
+                            <h6>Call us</h6>
+                            <p>Phone number: <br>
+                                (123) 456-789</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+             <div class="imgbox">
+            <img class="img-fluid" src="img/contactbg.png" alt="">
+        </div>
+        </div>
+      
+    </section>
+   
 
 
 
@@ -146,9 +510,8 @@
 
 
 
- 
 
-
-    <script src="vendor/bootstrap.bundle.js"></script>
+    <script src="vendors/bootstrap.bundle.js"></script>
 </body>
+
 </html>

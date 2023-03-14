@@ -1,0 +1,441 @@
+#contact1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 0;
+    top: 80px;
+    background-color: #10223a8b;
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        background-color: #10223a8b;
+
+        .text {
+            h1 {
+                font-size: 35px;
+                color: white;
+                margin-top: 15%;
+
+            }
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+            #home-txt {
+                color: white;
+
+                display: inline;
+
+                a {
+                    color: #D1960D;
+
+
+                    &:hover {
+                        color: white;
+
+                    }
+                }
+            }
+
+            #our-rates-txt {
+                display: inline;
+                color: white;
+
+                a {
+                    color: white;
+
+
+                }
+            }
+        }
+    }
+
+    .slide {
+        img {
+            width: 100%;
+            max-height: 60vh;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    }
+
+    .text {
+        animation: down-up 3s;
+    }
+
+    svg {
+        position: absolute;
+        z-index: 5;
+        bottom: -1px;
+        width: 100%;
+        height: 20%;
+        transform: rotate(180deg);
+    }
+}
+
+
+#contact2 {
+    .txtbox {
+        padding-top: 100px;
+
+
+        h6 {
+            font-weight: 700;
+            font-size: 15px;
+            opacity: 0.7;
+            letter-spacing: 1.5px;
+            margin-bottom: 0.7rem;
+            line-height: 1.6rem;
+
+            i {
+                color: #FDE3A7;
+                font-size: 25px;
+                transform: rotate(45deg);
+            }
+        }
+
+        h2 {
+            font-weight: bold;
+
+            font-family: 'ABeeZee', serif;
+
+            margin-bottom: 20px;
+
+            color: #10223A;
+
+        }
+
+        p {
+            margin-bottom: 2.5rem;
+            font-size: 19px;
+        }
+
+
+    }
+
+    .boxes {
+        text-align: center;
+
+        .box {
+            position: relative;
+            background-color: #fdf3e2;
+
+            margin-top: 6rem !important;
+            border-radius: 30px;
+            padding-block: 3rem;
+
+            p {
+                display: inline;
+                font-size: 19px;
+            }
+
+            i {
+                font-size: 20px;
+                color: white;
+                background-color: #FAB005;
+                border-radius: 50%;
+                padding: 15px;
+                position: absolute;
+                top: -15%;
+                left: 50%;
+                transform: translateX(-50%);
+                transition: 0.3s;
+            }
+
+            &:hover {
+                i {
+                    top: -20%;
+                }
+            }
+
+            a {
+                color: black;
+
+                &:hover {
+                    color: #FAB005;
+                }
+            }
+        }
+    }
+
+    .imgbox {
+        width: 85%;
+        position: relative;
+
+        margin: 5rem auto;
+
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        span {
+            position: absolute;
+            top: -7%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FAB005;
+            padding: 20px;
+            position: absolute;
+            font-size: 30px;
+            opacity: 0.8;
+            margin-top: -20px;
+            color: #fff;
+            line-height: 1.2;
+            border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
+            font-family: 'Damion', serif;
+        }
+    }
+}
+
+
+
+
+#contact3 {
+    padding-top: 100px;
+
+    .txtbox {
+        h3 {
+            color: #10223A !important;
+            font-weight: 700;
+        }
+    }
+
+    .form {
+        margin: 3rem 0 2rem 0;
+
+        .form-control {
+            border: 0;
+            background: transparent;
+            border-bottom: 2px solid #FAB005;
+            transition: all .15s ease-in-out;
+            border-radius: 5px;
+            box-shadow: none;
+            margin-block: 2rem ;
+
+        }
+
+
+        a {
+            text-align: center;
+            width: 25%;
+            color: #10223A;
+            font-weight: bold;
+            font-family: inherit;
+            padding: 10px 15px;
+            background-color: #FAB005;
+            border-radius: 20px;
+            transition: 0.1s ease-in-out;
+
+            &:hover {
+                background-color: #10223A;
+                color: white;
+            }
+        }
+    }
+
+
+
+}
+
+#contact4{
+    width: 100%;
+    
+}
+
+
+
+
+
+@media(min-width: 576px) {
+    #contact2 {
+        .imgbox {
+            position: relative;
+            width: 70%;
+            margin-left: 10%;
+
+            img {
+                width: 400px;
+            }
+
+            span {
+                position: absolute;
+                top: 50%;
+                left: -5%;
+            }
+        }
+    }
+    #contact3{
+        .form{
+            a{
+                width: 40%;
+            }
+        }
+    }
+}
+
+
+@media(min-width: 768px) {
+    #contact1 {
+        width: 100%;
+
+        svg {
+            height: 16vh;
+        }
+    }
+
+    #contact2 {
+        .imgbox {
+            position: relative;
+            width: 70%;
+            margin-left: 20%;
+
+            img {
+                width: 400px;
+            }
+
+        }
+    }
+    #contact3{
+        .form{
+            a{
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    #contact1 {
+        width: 100%;
+        top: 0;
+
+        svg {
+            height: 16vh;
+        }
+
+        .overlay {
+            .text {
+                h1 {
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+
+    #contact2 {
+        .imgbox {
+            position: relative;
+            width: 70%;
+            margin-left: 29%;
+
+            img {
+                width: 400px;
+            }
+
+        }
+    }
+    #contact3{
+        .form{
+            a{
+                width: 20%;
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    #contact1 {
+        width: auto;
+        margin-left: 34vh;
+
+        svg {
+            height: 16vh;
+        }
+
+        .slide {
+            padding-top: 0;
+        }
+
+        .overlay {
+            .text {
+                h1 {
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+
+    #contact2 {
+        width: 950px;
+        height: auto;
+
+        position: relative;
+        margin-left: 24%;
+
+        .txtbox {
+
+            padding-top: 75px;
+        }
+
+        .imgbox {
+            position: relative;
+
+            span {
+                position: absolute;
+                top: 20px;
+                left: 360px;
+
+
+            }
+
+        }
+
+        .boxes {
+            display: flex;
+            position: absolute;
+            bottom: 5%;
+            z-index: 4;
+
+            .box {
+                width: 25%;
+                margin-inline: 15px;
+                padding: 40px 25px;
+
+            }
+        }
+
+    }
+
+    #contact3 {
+        width: 75%;
+        margin-left: 20%;
+
+        .form {
+            width: 50%;
+            margin: 2rem auto;
+
+            a {
+                width: 40%;
+            }
+        }
+
+
+    }
+   #contact4{
+       width: 50%;
+      
+   }
+}
